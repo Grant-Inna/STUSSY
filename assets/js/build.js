@@ -1,0 +1,1 @@
+!function(){"use strict";var o,c=document.getElementsByClassName("mainScreen_arrow")[0],i=document.documentElement.clientHeight;c.addEventListener("click",function e(){c.style.opacity=".6";var t=Math.max(window.pageYOffset);var n=Math.round(-2*(t-i)/25);{if(!(t<=i&&2*i<document.body.scrollHeight))return clearTimeout(o),!1;window.scrollBy(0,n+5),o=setTimeout(e,10)}})}();
